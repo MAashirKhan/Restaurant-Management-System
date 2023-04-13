@@ -150,7 +150,7 @@ namespace RestaurantManagementSystem
             }
             public bool performLogin()
             {
-                if (userName == "Asad" && password == "123" && secretKey == "786")
+                if (userName == "Aashir" && password == "123" && secretKey == "786")
                 {
                     iLogin = new Login();
                     iLogin.performLogin();

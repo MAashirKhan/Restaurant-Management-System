@@ -6,3 +6,11 @@ C:\Users\ozanr\Desktop\RestaurantManagementSystem\RestaurantManagementSystem\obj
 C:\Users\ozanr\Desktop\RestaurantManagementSystem\RestaurantManagementSystem\obj\Debug\RestaurantManagementSystem.csproj.CoreCompileInputs.cache
 C:\Users\ozanr\Desktop\RestaurantManagementSystem\RestaurantManagementSystem\obj\Debug\RestaurantManagementSystem.exe
 C:\Users\ozanr\Desktop\RestaurantManagementSystem\RestaurantManagementSystem\obj\Debug\RestaurantManagementSystem.pdb
+E:\7th Semester\DP Theory\Project\RestaurantManagementSystem\RestaurantManagementSystem\bin\Debug\RestaurantManagementSystem.exe.config
+E:\7th Semester\DP Theory\Project\RestaurantManagementSystem\RestaurantManagementSystem\bin\Debug\RestaurantManagementSystem.exe
+E:\7th Semester\DP Theory\Project\RestaurantManagementSystem\RestaurantManagementSystem\bin\Debug\RestaurantManagementSystem.pdb
+E:\7th Semester\DP Theory\Project\RestaurantManagementSystem\RestaurantManagementSystem\obj\Debug\RestaurantManagementSystem.csproj.AssemblyReference.cache
+E:\7th Semester\DP Theory\Project\RestaurantManagementSystem\RestaurantManagementSystem\obj\Debug\RestaurantManagementSystem.csproj.SuggestedBindingRedirects.cache
+E:\7th Semester\DP Theory\Project\RestaurantManagementSystem\RestaurantManagementSystem\obj\Debug\RestaurantManagementSystem.csproj.CoreCompileInputs.cache
+E:\7th Semester\DP Theory\Project\RestaurantManagementSystem\RestaurantManagementSystem\obj\Debug\RestaurantManagementSystem.exe
+E:\7th Semester\DP Theory\Project\RestaurantManagementSystem\RestaurantManagementSystem\obj\Debug\RestaurantManagementSystem.pdb
