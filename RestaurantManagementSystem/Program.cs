@@ -13,6 +13,7 @@ namespace RestaurantManagementSystem
     {
         static void Main(string[] args)
         {
+            // Proxy Pattern
             Console.Write("Username: ");
             string userName = Console.ReadLine();
             Console.Write("Password: ");
@@ -25,11 +26,14 @@ namespace RestaurantManagementSystem
 
             if (isTrue)
             {
+                // Singleton Pattern
                 DatabaseConnection singleObject = DatabaseConnection.getConnected();
                 singleObject.showMessage();
 
                 Console.WriteLine("========================================");
                 Console.WriteLine("\t LOGIN SUCCESSFULL");
+                
+                // Composite Pattern
 
                 Console.WriteLine("========================================");
                 Console.WriteLine("\t LIST OF EMPLOYEES");
@@ -80,6 +84,8 @@ namespace RestaurantManagementSystem
                 valetHead.subOrdinates.Add(valet2);
 
                 Employee.record(restaurantManager);
+                
+                // Builder Pattern
 
                 Console.WriteLine("========================================");
                 Console.WriteLine("\t\t VENDORS");
@@ -108,6 +114,7 @@ namespace RestaurantManagementSystem
                 Meal meal2 = mealBuilder.Deal2();
                 meal2.print();
 
+                // Strategy Pattern
 
                 Console.WriteLine("========================================");
                 Console.WriteLine("\t\t PAY");
@@ -127,7 +134,7 @@ namespace RestaurantManagementSystem
                 Console.WriteLine("INVALID LOGIN");
             }
         }
-
+        // Singleton Pattern
         class DatabaseConnection
         {
             private static DatabaseConnection instance = new DatabaseConnection();
@@ -144,7 +151,7 @@ namespace RestaurantManagementSystem
                 Console.WriteLine("Database Connection Created Successfully!!");
             }
         }
-
+        // Proxy Pattern
         public interface ILogin
         {
             bool performLogin();
@@ -184,6 +191,7 @@ namespace RestaurantManagementSystem
                 }
             }
         }
+        // Factory Pattern
         class VendorFactory
         {
             public Vendor getVendor(string name)
@@ -287,6 +295,7 @@ namespace RestaurantManagementSystem
                 return 50;
             }
         }
+        // Composite Pattern
         class Employee
         {
             public string name;
@@ -310,6 +319,7 @@ namespace RestaurantManagementSystem
                 }
             }
         }
+        // Strategy Pattern
         public class Discounter
         {
             private Discount discount;
@@ -343,7 +353,7 @@ namespace RestaurantManagementSystem
                 Console.WriteLine(num * 0.8);
             }
         }
-
+        // Factory Pattern
         class FoodFactory
         {
             public Food getFood(string name)
@@ -366,6 +376,7 @@ namespace RestaurantManagementSystem
                 }
             }
         }
+        // Builder Pattern
         public class MealBuilder
         {
             public Meal Deal1()
