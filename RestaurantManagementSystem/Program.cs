@@ -25,6 +25,9 @@ namespace RestaurantManagementSystem
 
             if (isTrue)
             {
+                DatabaseConnection singleObject = DatabaseConnection.getConnected();
+                singleObject.showMessage();
+
                 Console.WriteLine("========================================");
                 Console.WriteLine("\t LOGIN SUCCESSFULL");
 
@@ -124,6 +127,24 @@ namespace RestaurantManagementSystem
                 Console.WriteLine("INVALID LOGIN");
             }
         }
+
+        class DatabaseConnection
+        {
+            private static DatabaseConnection instance = new DatabaseConnection();
+
+            private DatabaseConnection() { }
+
+            public static DatabaseConnection getConnected()
+            {
+                return instance;
+            }
+
+            public void showMessage()
+            {
+                Console.WriteLine("Database Connection Created Successfully!!");
+            }
+        }
+
         public interface ILogin
         {
             bool performLogin();
